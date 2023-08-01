@@ -25,17 +25,17 @@ export default function AuthenticationPage() {
             >
                 existing user? sign in
             </Link>
-            <div className="relative hidden h-full flex-col bg-muted p-10 text-white dark:border-r lg:flex">
-                <div className="relative z-20 flex items-center text-2xl font-medium">
+            <div className="relative hidden h-full flex-col bg-muted text-white dark:border-r lg:flex">
+                <div className="relative z-20 flex items-center px-10 py-6 text-2xl font-medium backdrop-blur w-full">
                     {/* insert ICON for POWAR */}
                     POWAR Platform
                 </div>
                 <Image
-                    className="z-10 absolute my-auto inset-0 p-10"
+                    className="z-10 absolute my-auto inset-1 p-28"
                     src={powarLeft}
-                    alt="Picture of POWAR"
+                    alt="Picture of POWAR device"
                 />
-                <div className="relative z-20 mt-auto">
+                <div className="relative z-20 mt-auto px-10 py-6 backdrop-blur w-full">
                     <blockquote className="space-y-2">
                         <p className="text-lg">
                             Plant Observatory of Weather Adaptability and
